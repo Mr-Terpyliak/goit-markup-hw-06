@@ -640,7 +640,8 @@ address {
     border: 1px solid var(--LIGHT-SLATE);
     background: var(--CLOUD);
 
-    padding: 24px 100px;
+    /* padding: 24px 100px; */
+    height: 100px;
     margin-bottom: 8px;
   }
 
@@ -681,7 +682,7 @@ address {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
 }
 
 .team-section-item + .team-section-item {
@@ -689,10 +690,11 @@ address {
 }
 
 .team-card-img {
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .team-text-box {
+  padding: 32px 16px;
 }
 
 .team-item-title {
@@ -809,7 +811,7 @@ address {
 .portfolio-overlay-container {
   position: relative;
   overflow: hidden;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .overlay {
@@ -839,6 +841,7 @@ address {
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .portfolio-item-title {
